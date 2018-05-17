@@ -20,8 +20,8 @@ spring:
       
 unis:
   auth:
-    clientId: unis
-    clientSecret: unis
+    clientId: unis123
+    clientSecret: unis123
     scope: server
   social:
     qq:
