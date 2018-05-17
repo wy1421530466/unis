@@ -19,23 +19,23 @@ zuul:
     connect-timeout-millis: 30000
     socket-timeout-millis: 30000
   routes:
-    pig-auth:
+    unis-auth:
       path: /auth/**
-      serviceId: pig-auth
+      serviceId: unis-auth
       stripPrefix: true
       sensitiveHeaders:
-    pig-upms-service:
+    unis-upms-service:
       path: /admin/**
-      serviceId: pig-upms-service
+      serviceId: unis-upms-service
       stripPrefix: true
       sensitiveHeaders:
   ratelimit:
-    key-prefix: pig-ratelimite
+    key-prefix: unis-ratelimite
     enabled: true
     repository: REDIS
     behind-proxy: true
     policies:
-      pig-upms-service:
+      unis-upms-service:
         limit: 100
         quota: 100
         refresh-interval: 3
@@ -46,12 +46,12 @@ security:
   sessions: stateless
   oauth2:
     client:
-      client-id: pig
-      client-secret: pig
+      client-id: unis123
+      client-secret: unis123
     resource:
       loadBalanced: true
       token-info-uri: ${security.auth.server}/oauth/check-token
-      service-id: pig-gateway
+      service-id: unis-gateway
       jwt:
          key-uri: ${security.auth.server}/oauth/token_key #解析jwt令牌所需要密钥的地址
 
