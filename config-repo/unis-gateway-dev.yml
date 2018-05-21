@@ -13,7 +13,7 @@ zuul:
   ribbon:
     eager-load:
       enabled: true
-      clients: pig-auth,pig-upms-service
+      clients: unis-auth,unis-upms-service
   ignoredServices: '*'
   host:
     connect-timeout-millis: 30000
