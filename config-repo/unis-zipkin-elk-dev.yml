@@ -4,9 +4,9 @@ server:
 zipkin:
   collector:
     rabbitmq:
-      addresses: 127.0.0.1:5682
-      password: lengleng
-      username: pig
+      addresses: 192.168.1.8:5555
+      password: moshushi@123
+      username: mss
       queue: zipkin
   storage:
     type: elasticsearch
