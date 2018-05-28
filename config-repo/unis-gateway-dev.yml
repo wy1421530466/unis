@@ -13,7 +13,7 @@ zuul:
   ribbon:
     eager-load:
       enabled: true
-      clients: unis-auth,unis-upms-service
+      clients: unis-auth,unis-upms-service,unis-project-service,unis-expert-service
   ignoredServices: '*'
   host:
     connect-timeout-millis: 30000
@@ -27,6 +27,16 @@ zuul:
     unis-upms-service:
       path: /admin/**
       serviceId: unis-upms-service
+      stripPrefix: true
+      sensitiveHeaders:
+    unis-project-service:
+      path: /project/**
+      serviceId: unis-project-service
+      stripPrefix: true
+      sensitiveHeaders:
+    unis-expert-service:
+      path: /admin/**
+      serviceId: unis-expert-service
       stripPrefix: true
       sensitiveHeaders:
   ratelimit:
