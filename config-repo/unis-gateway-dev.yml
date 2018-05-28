@@ -35,7 +35,7 @@ zuul:
       stripPrefix: true
       sensitiveHeaders:
     unis-expert-service:
-      path: /admin/**
+      path: /expert/**
       serviceId: unis-expert-service
       stripPrefix: true
       sensitiveHeaders:
