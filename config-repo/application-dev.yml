@@ -11,7 +11,7 @@ server:
 spring:
   redis:
     remote: false        #cachecloud 获取
-    host: 49.4.12.66
+    host: 117.78.43.243
     port: 6666
     password: moshushi123
   rabbitmq:
