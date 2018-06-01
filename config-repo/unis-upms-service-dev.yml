@@ -61,7 +61,7 @@ mybatis-plus:
     map-underscore-to-camel-case: true
     cache-enabled: true
 fdfs:
-  #file-host: http://127.0.0.1:22121/
+  file-host: http://49.4.12.1.152:8888/
   tracker-list:
     - 49.4.12.1.152:22122
 
