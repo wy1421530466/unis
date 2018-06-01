@@ -78,6 +78,9 @@ urls:
     - /*/v2/api-docs
     - /swagger/api-docs
     - /webjars/**
-
+fdfs:
+  file-host: http://49.4.12.152:8888/
+  tracker-list:
+    - 49.4.12.152:22122
 logging:
   config: classpath:logback.xml
