@@ -14,13 +14,6 @@ spring:
     host: 117.78.43.243
     port: 6666
     password: moshushi123
-  #消息总线采用kafka实现
-  stream: 
-    default-binder: kafka
-    kafka: 
-      binder:
-        zk-nodes: 49.4.12.198:2181
-        brokers: 49.4.12.198:9092
   rabbitmq:
     host: 192.168.1.8
     port: 5555
