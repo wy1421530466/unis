@@ -41,6 +41,10 @@ urls:
     - /metrics/**
     - /loggers/**
     - /mobile/token
+fdfs:
+  file-host: http://49.4.12.152:8888/
+  tracker-list:
+    - 49.4.12.152:22122
 bus: 
   test: wwq123
 logging:
