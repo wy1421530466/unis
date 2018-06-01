@@ -41,7 +41,8 @@ urls:
     - /metrics/**
     - /loggers/**
     - /mobile/token
-
+bus: 
+  test: wwq123
 logging:
   config: classpath:logback.xml
 
