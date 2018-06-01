@@ -75,7 +75,7 @@ logging:
   config: classpath:logback.xml
 
 bus:
-  test: wwq
+  test: wwq11
 conf:
   test:
     val: wwq555
