@@ -19,11 +19,6 @@ zuul:
     connect-timeout-millis: 30000
     socket-timeout-millis: 30000
   routes:
-    unis-auth-my:
-      path: /auth-my/**
-      serviceId: unis-auth-my
-      stripPrefix: true
-      sensitiveHeaders:
     unis-auth:
       path: /auth/**
       serviceId: unis-auth
