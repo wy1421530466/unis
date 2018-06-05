@@ -62,6 +62,9 @@ security:
       loadBalanced: true
       token-info-uri: ${security.auth.server}/oauth/check-token
       service-id: unis-gateway
+      user-authorization-uri: ${security.auth.server}/oauth/authorize
+      access-token-uri: ${security.auth.server}/oauth/token
+      scope: server
       jwt:
          key-uri: ${security.auth.server}/oauth/token_key #解析jwt令牌所需要密钥的地址
 
