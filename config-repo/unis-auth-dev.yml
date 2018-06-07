@@ -33,6 +33,7 @@ urls:
   anon:
     - /authentication/**
     - /**/*.css
+    - /**/*.js
     - /social
     - /signin
     - /signup
