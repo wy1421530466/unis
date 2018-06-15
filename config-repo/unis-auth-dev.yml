@@ -32,6 +32,7 @@ unis:
 urls:
   anon:
     - /authentication/**
+    - /**/*.ico
     - /**/*.css
     - /**/*.js
     - /social
