@@ -13,12 +13,17 @@ zuul:
   ribbon:
     eager-load:
       enabled: true
-      clients: unis-auth,unis-upms-service,unis-project-service,unis-expert-service
+      clients: unis-auth,unis-upms-service,unis-project-service,unis-expert-service,unis-search-service
   ignoredServices: '*'
   host:
     connect-timeout-millis: 30000
     socket-timeout-millis: 30000
   routes:
+    unis-search-service:
+      path: /search/**
+      serviceId: unis-search-service
+      stripPrefix: true
+      sensitiveHeaders:
     unis-auth:
       path: /auth/**
       serviceId: unis-auth
