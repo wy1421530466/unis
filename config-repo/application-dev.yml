@@ -33,7 +33,7 @@ redis:
 ribbon:
   eager-load:
     enabled: true
-    clients: unis-auth,unis-upms-service,unis-project-service,unis-expert-service
+    clients: unis-auth,unis-upms-service,unis-project-service,unis-expert-service,unis-search-service
   Httpclient:
     enabled: false
   OkHttp:
