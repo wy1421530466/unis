@@ -18,32 +18,6 @@ zuul:
   host:
     connect-timeout-millis: 30000
     socket-timeout-millis: 30000
-  routes:
-    unis-search-service:
-      path: /search/**
-      serviceId: unis-search-service
-      stripPrefix: true
-      sensitiveHeaders:
-    unis-auth:
-      path: /auth/**
-      serviceId: unis-auth
-      stripPrefix: true
-      sensitiveHeaders:
-    unis-upms-service:
-      path: /admin/**
-      serviceId: unis-upms-service
-      stripPrefix: true
-      sensitiveHeaders:
-    unis-project-service:
-      path: /project/**
-      serviceId: unis-project-service
-      stripPrefix: true
-      sensitiveHeaders:
-    unis-expert-service:
-      path: /expert/**
-      serviceId: unis-expert-service
-      stripPrefix: true
-      sensitiveHeaders:
   ratelimit:
     key-prefix: unis-ratelimite
     enabled: true
