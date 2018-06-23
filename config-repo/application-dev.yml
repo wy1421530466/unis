@@ -2,7 +2,10 @@
 jasypt:
   encryptor:
     password: lengleng
-
+fdfs:
+  file-host: http://49.4.12.152:8888/
+  tracker-list:
+    - 49.4.12.152:22122
 server:
   tomcat:
     max-threads: 500 # Maximum amount of worker threads.
