@@ -10,7 +10,7 @@ spring:
       percentage: 0.2
 
 zuul:
-  servlet-path=/
+  servlet-path: /
   ribbon:
     eager-load:
       enabled: true
