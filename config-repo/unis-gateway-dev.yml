@@ -61,6 +61,7 @@ urls:
     - /*/v2/api-docs
     - /swagger/api-docs
     - /webjars/**
+    - /project/tbProjectDocument/**
 fdfs:
   file-host: http://49.4.12.152:8888/
   tracker-list:
