@@ -77,7 +77,7 @@ hystrix:
 #分布式事务管理LCN --txmanager事务管理器地址
 tm:
   manager: 
-    url: http://127.0.0.1:8899/tx/manager/    
+    url: http://192.168.1.8:8899/tx/manager/    
 
 #监控短点配置
 management:
