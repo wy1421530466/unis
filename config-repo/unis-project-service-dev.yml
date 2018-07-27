@@ -71,6 +71,7 @@ qiniu:
 
 logging:
   config: classpath:logback.xml
+  level: debug
 
 bus:
   test: wwq
