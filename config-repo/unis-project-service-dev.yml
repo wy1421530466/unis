@@ -60,11 +60,11 @@ mybatis-plus:
     #开启二级缓存
     cache-enabled: true
     #查询时，关闭关联对象即时加载以提高性能
-    #lazy-loading-enabled: true
+    lazy-loading-enabled: true
     #对于未知的SQL查询，允许返回不同的结果集以达到通用的效果
-   # multiple-resultSets-enabled: true
+    multiple-resultSets-enabled: true
     #设置关联对象加载的形态，此处为按需加载字段(加载字段由SQL指 定)，不会加载关联表的所有字段，以提高性能
-    #aggressive-lazy-loading: true
+    aggressive-lazy-loading: true
 fdfs:
   file-host: http://49.4.12.152:8888/
   tracker-list:
