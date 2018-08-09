@@ -63,7 +63,10 @@ urls:
     - /webjars/**
     - /project/tbProjectDocument/**
     - /programGuide/tbSchemeController/downLoadFile/**
+    - /programGuide/tbSchemeController/onlinePreview/**
     - /programGuide/tbGuide/downLoadFile/**
+    - /programGuide/tbGuide/onlinePreview/**
+    
 fdfs:
   file-host: http://49.4.12.152:8888/
   tracker-list:
