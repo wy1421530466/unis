@@ -14,7 +14,7 @@ zuul:
   ribbon:
     eager-load:
       enabled: true
-      clients: unis-auth,unis-upms-service,unis-project-service,unis-expert-service,unis-search-service
+      clients: unis-auth,unis-upms-service,unis-project-service,unis-expert-service,unis-search-service,unis-scheme
   ignoredServices: '*'
   host:
     connect-timeout-millis: 30000
@@ -62,6 +62,8 @@ urls:
     - /swagger/api-docs
     - /webjars/**
     - /project/tbProjectDocument/**
+    - /programGuide/tbSchemeController/downLoadFile/**
+    - /programGuide/tbGuide/downLoadFile/**
 fdfs:
   file-host: http://49.4.12.152:8888/
   tracker-list:
