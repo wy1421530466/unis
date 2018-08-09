@@ -62,6 +62,7 @@ urls:
     - /swagger/api-docs
     - /webjars/**
     - /project/tbProjectDocument/**
+    - /expert/tbExpert/importExpertXls/**
     - /programGuide/tbSchemeController/downLoadFile/**
     - /programGuide/tbSchemeController/onlinePreview/**
     - /programGuide/tbGuide/downLoadFile/**
