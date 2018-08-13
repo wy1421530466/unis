@@ -67,6 +67,7 @@ urls:
     - /programGuide/tbSchemeController/onlinePreview/**
     - /programGuide/tbGuide/downLoadFile/**
     - /programGuide/tbGuide/onlinePreview/**
+    - /project/tbProjectLibrary/**
     
 fdfs:
   file-host: http://49.4.12.152:8888/
