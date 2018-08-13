@@ -88,3 +88,13 @@ endpoints:
     enabled: true
   shutdown:
     enabled: false
+#自然语言处理配置
+nlp:
+  root-path: /mss/HanLP
+  keyword-extract-num: 20
+  custom-keyword-path: ${nlp.root-path}/data/keyword.txt
+  word-vector:
+    train-file-name: ${nlp.root-path}/data/test/test.txt
+    model-file-name: ${nlp.root-path}/hanlp/data/model/wordVector/word2vec.txt
+  text-classfiy:
+    model-file-name: ${nlp.root-path}/data/model/classification/classification-model.ser
