@@ -3,9 +3,9 @@ jasypt:
   encryptor:
     password: lengleng
 fdfs:
-  file-host: http://49.4.12.152:8888/
+  file-host: http://192.168.1.149:8888/
   tracker-list:
-    - 49.4.12.152:22122
+    - 192.168.1.149:22122
 server:
   tomcat:
     max-threads: 500 # Maximum amount of worker threads.
@@ -21,7 +21,7 @@ spring:
           brokers: 49.4.12.198:9092
   redis:
     remote: false        #cachecloud 获取
-    host: 49.4.12.13
+    host: 192.168.1.93
     port: 6666
     password: moshushi123
   http:
@@ -77,7 +77,7 @@ hystrix:
 #分布式事务管理LCN --txmanager事务管理器地址
 tm:
   manager: 
-    url: http://192.168.1.8:8899/tx/manager/    
+    url: http://192.168.1.149:8899/tx/manager/    
 
 #监控短点配置
 management:
