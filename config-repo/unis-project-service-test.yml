@@ -20,7 +20,7 @@ sharding:
       driver-class-name: com.mysql.jdbc.Driver
       username: root
       password: moshushi123
-      jdbc-url: jdbc:mysql://49.4.12.66:3306/unis?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+      jdbc-url: jdbc:mysql://192.168.1.105:3306/unis?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     datasource:
       names: ds
       ds:
@@ -28,7 +28,7 @@ sharding:
         driver-class-name: com.mysql.jdbc.Driver
         username: root
         password: moshushi123
-        jdbc-url: jdbc:mysql://49.4.12.66:3306/unis?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+        jdbc-url: jdbc:mysql://192.168.1.105:3306/unis?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     config:
       sharding:
         tables:
@@ -65,11 +65,6 @@ mybatis-plus:
     multiple-resultSets-enabled: true
     #设置关联对象加载的形态，此处为按需加载字段(加载字段由SQL指 定)，不会加载关联表的所有字段，以提高性能
     aggressive-lazy-loading: true
-fdfs:
-  file-host: http://49.4.12.152:8888/
-  tracker-list:
-    - 49.4.12.152:22122
-
 qiniu:
   accessKey: hM2cBDEM0FTYzpXbigRW90kV12NhhzhFM3jCzurJ
   secretKey: ENC(HM/K0KmtFoZSBhGDEA0Ez71ePTncZlQ954DfLNMZuOftKZq+2WR+dCXH9QEsf768q9wwd92RXLE=)
