@@ -92,7 +92,7 @@ endpoints:
 nlp:
   #root-path: /mss/HanLP
   root-path: E:/JavaSoft/hanlp
-  keyword-extract-num: 20
+  keyword-extract-num: 5
   custom-keyword-path: ${nlp.root-path}/data/keyword.txt
   word-vector:
     train-file-name: ${nlp.root-path}/data/test/test.txt
