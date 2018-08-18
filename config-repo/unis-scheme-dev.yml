@@ -53,5 +53,7 @@ mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
     cache-enabled: true
+nlp.title-similar-threshold:
+  0.8
 logging:
   config: classpath:logback.xml
