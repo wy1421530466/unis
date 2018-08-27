@@ -18,7 +18,7 @@ spring:
       kafka: 
         binder:
           zk-nodes: 192.168.1.141:2181
-          brokers: 192.1.168.1.141:9092
+          brokers: 192.168.1.141:9092
   redis:
     remote: false        #cachecloud 获取
     host: 192.168.1.93
