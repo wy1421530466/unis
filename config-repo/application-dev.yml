@@ -90,7 +90,7 @@ endpoints:
     enabled: false
 #自然语言处理配置
 nlp:
-   root-path: /mss/HanLP
+  root-path: /mss/HanLP
 #  root-path: E:/JavaSoft/hanlp
   similar-threshold: 0.8
   keyword-extract-num: 5
