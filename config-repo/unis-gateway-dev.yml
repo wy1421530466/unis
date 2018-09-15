@@ -67,6 +67,7 @@ urls:
     - /programGuide/tbSchemeController/onlinePreview/**
     - /programGuide/tbGuide/downLoadFile/**
     - /programGuide/tbGuide/onlinePreview/**
+    - /oa/oaArticleFile/onlinePreview/**
     - /project/tbProjectLibrary/**
     
 fdfs:
