@@ -14,7 +14,7 @@ zuul:
   ribbon:
     eager-load:
       enabled: true
-      clients: unis-auth,unis-upms-service,unis-project-service,unis-expert-service,unis-search-service,unis-scheme
+      clients: unis-auth,unis-upms-service,unis-project-service,unis-expert-service,unis-search-service,unis-scheme,unis-oa
   ignoredServices: '*'
   host:
     connect-timeout-millis: 30000
