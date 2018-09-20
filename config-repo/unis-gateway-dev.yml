@@ -69,6 +69,9 @@ urls:
     - /programGuide/tbGuide/onlinePreview/**
     - /project/tbProjectLibrary/**
     - /oa/oaArticleFile/onlinePreview/**
+    - /oa/oaArticle/downLoadFile/**
+    - /oa/oaContract/downLoadFile/**
+    - /oa/oaMeeting/downLoadFile/**
     
 fdfs:
   file-host: http://49.4.12.152:8888/
