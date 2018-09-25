@@ -93,7 +93,7 @@ nlp:
   root-path: /mss/HanLP
 #  root-path: E:/JavaSoft/hanlp
   title-similar-threshold: 0.8
-  similar-threshold: 0.9
+  similar-threshold: 0.85
   keyword-extract-num: 5
   custom-keyword-path: ${nlp.root-path}/data/keyword.txt
   word-vector:
